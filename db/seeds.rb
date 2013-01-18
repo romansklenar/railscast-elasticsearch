@@ -28,3 +28,7 @@ COMMENT
 Comment.create! name: "Riddler", article: batman, content: <<-CONTENT
 Did someone say games?
 CONTENT
+
+Article.create! name: "Upcoming", author: clark, published_at: 2.weeks.from_now, content: <<-ARTICLE
+This article is set to be published in the future.
+ARTICLE
